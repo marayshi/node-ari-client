@@ -1,0 +1,11 @@
+services:
+  ari-client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-ari-client
+    volumes:
+      - .:/app
+      - /usr/src/app/node_modules
+    stdin_open: true
+    tty: true

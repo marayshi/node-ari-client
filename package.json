@@ -27,8 +27,9 @@
     "backoff-func": "^0.1.2",
     "bluebird": "^3.5.2",
     "lodash": "^4.17.10",
+    "remove": "^0.1.5",
     "request": "^2.34.0",
-    "swagger-client": "2.0.26",
+    "swagger-client": "^3.29.3",
     "uuid": "^3.0.0",
     "ws": "^6.0.0"
   },
@@ -37,15 +38,16 @@
   },
   "devDependencies": {
     "async": "^2.6.1",
+    "env-test": "^1.0.0",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
-    "grunt-jsdoc": "^2.1.0",
+    "grunt-jsdoc": "^0.4.0",
     "hock": "^1.3.1",
-    "env-test": "^1.0.0",
     "jshint": "^2.9.2",
-    "mocha": "^5.2.0",
+    "mocha": "^10.7.3",
     "moment": "^2.6.0",
     "mustache": "^2.2.1",
+    "nodemon": "^3.1.7",
     "nyc": "^15.0.0",
     "portfinder": "^1.0.6"
   }
